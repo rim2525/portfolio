@@ -3,124 +3,231 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
-  <title>シングルページレイアウト</title>
+  <title>portfolio</title>
   <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Raleway:700,400">
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="normalize.css">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" href="images/favicon.ico" />
 </head>
 <body>
   <header class="header">
     <p class="site-title-sub">Web designer's portfolio</p>
-    <h1 class="site-title">HI, MY NAME IS...</h1>
+    <h1 class="site-title">RISAKO MURAKAMI </h1>
     <p class="site-description">Check out some of my works.</p>
     <div class="buttons">
       <a class="button" href="#about">LEARN MORE</a>
-      <a class="button button-showy" href="#contact">SEND MESSAGE</a>
+       <a class="button button-showy" href="#contact">SEND MESSAGE</a> 
     </div>
   </header>
   <section class="about" id="about">
     <h2 class="heading">ABOUT ME</h2>
     <p class="about-text">
-      はじめまして。日本でWebデザイナーをしています。<br>
-      デザインの専門学校を卒業し、制作会社での業務経験を経て、現在はフリーランスとして働いています。
+      初めまして。Murakami Risakoと申します。
     </p>
     <p class="about-text">
-      このサイトは「HTML/CSS モダンコーディング」という書籍のサンプルとして作られた、架空のWebデザイナーのポートフォリオサイトです。<br>
-      このサンプルのようなサイトをいちから作る過程を通して、HTMLとCSSの実践的なコーディングノウハウを学ぶことができます。
+     <!--  Webデザイナーになるために職業訓練校を経て、<br> -->日々Webサイト制作技術を上げるために努力しております。<br>私の強みは細かなことを続けられる集中力と、筋道を立てて考える思考力があることです。<br>未経験ですが、強みを生かし頑張ります！
     </p>
   </section>
-  <section class="works">
+
+ <section class="works">
+    <h2 class="heading">WORKS</h2>
+
+    <div class="works-wrapper">
+         <div class="work-box tree">
+            <p><img class="work-image" src="images/work2.jpg" alt="制作事例1"></p>
+            <p class="work-text">
+              <span>チーズアカデミーWebサイト</span><br>
+              使用ツール：HTML５,CSS３<br>
+              <a href="#" class="button button-ghost">READ MORE</a>
+            </p>
+         </div><!--work-box tree  -->
+
+         <div class="work-box tree">
+            <p><img class="work-image" src="images/work3.jpg" alt="制作事例1"></p>
+            <p class="work-text">
+              <span>広告代理店　LPサイト </span><br>
+              使用ツール：HTML５,CSS３,Photoshop<br>
+              <a href="#" class="button button-ghost">READ MORE</a>
+            </p>
+         </div><!--work-box tree  -->
+
+         <div class="work-box tree">
+            <p><img class="work-image" src="images/work4.jpg" alt="制作事例1"></p>
+            <p class="work-text">
+              <span>広告代理店　LPサイト </span><br>
+              使用ツール：HTML５,CSS３,Photoshop<br>
+              <a href="#" class="button  button-ghost">READ MORE</a>
+            </p>
+         </div><!--work-box tree  -->
+
+         <div class="work-box tree">
+            <p><img class="work-image" src="images/work5.jpg" alt="制作事例1"></p>
+            <p class="work-text">
+              <span>広告会社webサイト</span><br>
+              使用ツール：HTML５,CSS３,Photoshop,Illustrator,Dreamweaver<br>
+              <a href="#" class="button button-ghost">READ MORE</a>
+            </p>
+         </div><!--work-box tree  -->
+
+         <div class="work-box tree">
+            <p><img class="work-image" src="images/work6.jpg" alt="制作事例1"></p>
+            <p class="work-text">
+              <span>ゴルフ製造会社のPR　Webサイト</span><br>
+              使用ツール：HTML５,CSS３,Photoshop,Illustrator,javascript,jQuery,Dreamweaver<br>
+              <a href="#" class="button button-ghost">READ MORE</a>
+            </p>
+         </div><!--work-box tree  -->
+
+
+    </div><!--works-wrapper-->
+
+
+
+    
+
+
+
+  </section>
+  <!-- <section class="works">
     <h2 class="heading">WORKS</h2>
     <div class="works-wrapper">
       <div class="work-box tree">
-        <img class="work-image" src="tree.jpg" alt="制作事例1">
+        <img class="work-image" src="images/tree.jpg" alt="制作事例1">
+         <div class="work-description"> 
+           <div class="work-description-inner"> 
+            <p class="work-text">
+             制作作品 1<br>
+              マッチングアプリサイト<br>
+              使用ツール：HTML,CSS<br>
+              <a href="#" class="button button-ghost">READ MORE</a>
+            </p>
+           </div>
+         </div>
+      </div>
+
+      <div class="work-box tree">
+        <img class="work-image" src="images/tree.jpg" alt="制作事例1">
         <div class="work-description">
           <div class="work-description-inner">
             <p class="work-text">
-              ひとつめの制作事例が入ります。<br>
-              簡単な説明が入ります。<br>
-              使用ツール：XXX, XXX, XXX<br>
+             制作作品 1<br>
+              マッチングアプリサイト<br>
+              使用ツール：HTML,CSS<br>
               <a href="#" class="button button-ghost">READ MORE</a>
-            </p>
+            </>
           </div>
         </div>
       </div>
+
+
       <div class="work-box building">
-        <img class="work-image" src="building.jpg" alt="制作事例2">
+        <img class="work-image" src="images/tree.jpg" alt="制作事例2">
         <div class="work-description">
           <div class="work-description-inner">
             <p class="work-text">
-              ふたつめの制作事例が入ります。<br>
-              簡単な説明が入ります。<br>
-              使用ツール：XXX, XXX, XXX<br>
+              制作作品 2<br>
+                旅行代理店LPサイト（2点）<br>
+              使いやすさ、情報の伝わりやすさなど、用ツール：Photoshop,HTML,CSS<br>
               <a href="#" class="button button-ghost">READ MORE</a>
             </p>
           </div>
         </div>
       </div>
       <div class="work-box lake">
-        <img class="work-image" src="lake.jpg" alt="制作事例3">
+        <img class="work-image" src="images/lake.jpg" alt="制作事例3">
         <div class="work-description">
           <div class="work-description-inner">
             <p class="work-text">
-              みっつめの制作事例が入ります。<br>
-              簡単な説明が入ります。<br>
-              使用ツール：XXX, XXX, XXX<br>
+              制作作品 3<br>
+                Web制作会社サイト<br>
+              使用ツール：Photshop,Illustrator,Dreamweaver<br>
               <a href="#" class="button button-ghost">READ MORE</a>
             </p>
           </div>
         </div>
       </div>
       <div class="work-box sky">
-        <img class="work-image" src="sky.jpg" alt="制作事例4">
+        <img class="work-image" src="images/sky.jpg" alt="制作事例4">
         <div class="work-description">
           <div class="work-description-inner">
             <p class="work-text">
-              よっつめの制作事例が入ります。<br>
-              簡単な説明が入ります。<br>
-              使用ツール：XXX, XXX, XXX<br>
+              制作作品 4(グループ制作)<br>
+                Golfメーカーサイト<br>
+               使用ツール：Photshop,Illustrator,Dreamweaver<br>
               <a href="#" class="button button-ghost">READ MORE</a>
             </p>
           </div>
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
   <section class="skills">
     <h2 class="heading">MY SKILLS</h2>
     <div class="skills-wrapper">
       <div class="skill-box">
-        <i class="skill-icon fa fa-lightbulb-o"></i>
-        <div class="skill-title">IDEA</div>
+        <!-- <i class="skill-icon fa fa-lightbulb-o"></i> -->
+        <img class="skill-icon" src="images/html5.png" alt="制作事例1">
+        <div class="skill-title">HTML５</div>
+
         <p class="skill-text">
-          何かを考えることが好きです。<br>
-          新しいことを思いついては試しています。<br>
-          ディレクションの経験もあります。
+          コーデイングを引き継ぐ人が分かりやすいようにソースを簡潔にすることを意識しています。<br>
         </p>
       </div>
+
       <div class="skill-box">
-        <i class="skill-icon fa fa-paint-brush"></i>
-        <div class="skill-title">DESIGN</div>
+        <!-- <i class="skill-icon fa fa-paint-brush"></i> -->
+        <img class="skill-icon" src="images/css3.png" alt="制作事例1">
+        <div class="skill-title">CSS３</div>
         <p class="skill-text">
-          見た目の綺麗さだけじゃなくて、<br>
-          使いやすさ、情報の伝わりやすさなど、<br>
-          その先まで考えることを意識しています。
+          見た目の綺麗さだけでなく、<br>
+          コードの更新のしやすさ、デザインカンプに沿った空間の取り方に気を付けています。<br>
+          
         </p>
       </div>
+
       <div class="skill-box">
-        <i class="skill-icon fa fa-code"></i>
-        <div class="skill-title">CODING</div>
+       <img class="skill-icon" src="images/ps.png" alt="制作事例1">
+        <div class="skill-title">Photoshop</div>
         <p class="skill-text">
-          HTML/CSSコーディングも行います。<br>
-          正しく美しいマークアップと、<br>
-          今後の変更への強さを考慮しています。
+         色彩論等意識した色合いで<br>
+          見る人の印象に残る作品作りに<br>
+          こだわっています。
         </p>
       </div>
-    </div>
+
+      <div class="skill-box">
+        <img class="skill-icon" src="images/ai.png" alt="制作事例1">
+        <div class="skill-title">Illustrator</div>
+        <p class="skill-text">
+          色彩論等意識した色合いで<br>
+          見る人の印象に残る作品作りに<br>
+          こだわっています。
+          
+        </p>
+      </div>
+
+      <div class="skill-box">
+       <img class="skill-icon" src="images/js.png" alt="制作事例1">
+        <div class="skill-title">javascript</div>
+        <p class="skill-text">
+          スライドショーや画像のキャプション表示等、Webサイト全般によく使われる基礎をしっかり使いこなせるよう意識しています。
+          <br>
+          
+        </p>
+      </div>
+    </div> 
+  </section>
+  <section class="contact" id="contact">
+    <h2 class="heading">CONTACT</h2>
+    <form class="contact-form">
+      <input type="text" name="name" placeholder="NAME">
+      <textarea name="message" placeholder="MESSAGE"></textarea>
+      <input type="submit" value="SEND">
+    </form>
   </section>
   <footer class="footer">
-      © sample site
+      Copyright © 2020 Murakami All Rights Reserved.
   </footer>
   <script src="lib/placeholders.min.js"></script>
 </body>
